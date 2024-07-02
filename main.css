@@ -1,0 +1,503 @@
+
+#home{
+    width: 100%;
+    height: 598px;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.home-underline #top #nav a:nth-child(1){
+    color: deepskyblue;
+}
+#top{
+    width: 85%;
+    margin: auto;
+    height: 60px;
+    border-bottom: 2px solid lightgray;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#logo{
+    display: flex;
+    margin-left: 20px;
+    font-family: "Baskerville Old Face", sans-serif;
+    width: 30%;
+    font-weight: 600;
+    font-size: 20px;
+}
+#logo > p:nth-child(1){
+    color: black;
+}
+#logo > p:nth-child(2){
+    color: gray;
+    margin-left: 5px;
+}
+#home #nav{
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: OpenSymbol, sans-serif;
+}
+#nav a{
+    padding: 5px 0;
+    font-size: 18px;
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+}
+#nav a:hover{
+    color: deepskyblue;
+}
+#home #send-message{
+    width: 15%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 50px;
+}
+#home #send-message a{
+    background: deepskyblue;
+    padding: 12px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+#home #send-message a:hover{
+   font-weight: bolder;
+}
+#nav > a:nth-child(4){
+    padding-right: 25px;
+}
+/*======================================================*/
+/* SECTION1 */
+/*======================================================*/
+
+#section-1{
+    width: 85%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 30px;
+}
+#section-1 .first{
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 80px;
+
+}
+#section-1 .first .buttons{
+    display: flex;
+}
+#section-1 .first .buttons a:hover{
+    font-weight: bolder;
+}
+#section-1 .first .buttons a:nth-child(2){
+    font-size: 15px;
+    color: black;
+    font-family: Arial, sans-serif;
+    padding: 9px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+#section-1 .first .buttons a:nth-child(1){
+    font-size: 15px;
+    color: white;
+    font-family: Arial, sans-serif;
+    background: deepskyblue;
+    padding: 12px;
+    border-radius: 15px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+#section-1 .first a:nth-of-type(2){
+    margin-left: 20px;
+}
+#section-1 .second{
+    width: 30%;
+    margin-top: 30px;
+    border-radius: 20px;
+    background: rgb(246,246,246);
+    background: linear-gradient(90deg, rgba(246,246,246,1) 0%, rgba(240,240,240,1) 100%);
+}
+#section-1 .second .pic1{
+    width: 98%;
+}
+#section-1 .first p:nth-child(1){
+    font-size: 20px;
+    color:white;
+}
+#section-1 .first p:nth-child(2){
+    font-size: 45px;
+    color: black;
+    font-family: "Baskerville Old Face", sans-serif;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 1px;
+}
+#section-1 .first p:nth-child(3){
+    font-size: 20px;
+    width: 100%;
+    color: slategrey;
+    font-family: Arial, sans-serif
+}
+#section-1 .center{
+    width: 70%;
+    margin: auto;
+}
+/*======================================================*/
+/* CONTAINER */
+/*======================================================*/
+
+.container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+/*======================================================*/
+/* SECTION2*/
+/*======================================================*/
+#section-2{
+    margin-top: 40px;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 30px;
+}
+#section-2 .first{
+    width: 50%;
+    margin-top: 20px;
+    height: 120px;
+    border-radius: 20px;
+    background: rgb(246,246,246);
+    background: linear-gradient(90deg, rgba(246,246,246,1) 0%, rgba(240,240,240,1) 100%);}
+#section-2 .first p{
+    font-size: 40px;
+    color: black;
+    font-family: "Baskerville Old Face", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#section-2 .second{
+    width: 45%;
+    margin-left: 40px;
+}
+#section-2 .second p{
+    font-size: 17px;
+    color: slategrey;
+    font-family: Arial, sans-serif
+}
+#section-2 .second a:nth-of-type(1){
+    font-size: 15px;
+    color: black;
+    font-family: Arial, sans-serif;
+    padding: 9px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+#section-2 .second a:nth-of-type(2){
+    font-size: 15px;
+    color: white;
+    font-family: Arial, sans-serif;
+    background: deepskyblue;
+    padding: 12px;
+    border-radius: 15px;
+    margin-top: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+#section-2 .buttons{
+    margin-top: 30px;
+}
+#section-2 .buttons a:hover{
+    font-weight: bold;
+}
+/*======================================================*/
+/* SECTION3*/
+/*======================================================*/
+#section-3 .first{
+    width: 50%;
+}
+#section-3 .first img{
+    width: 75%;
+    margin-left: 80px;
+}
+#section-3 .second{
+    margin-top: 25px;
+    height: 300px;
+    width: 50%;
+    margin-left: 20px;
+    border-radius: 20px;
+    background: rgb(246,246,246);
+    background: linear-gradient(90deg, rgba(246,246,246,1) 0%, rgba(240,240,240,1) 100%);
+}
+#section-3 .second p{
+    padding: 20px;
+    font-size: 17px;
+    color: slategrey;
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    margin-top: 75px;
+}
+#basketball-icon{
+    margin-left: 40px;
+}
+#coffee-icon{
+    margin-left: 20px;
+}
+#tennis-icon{
+    margin-left: 20px;
+}
+#game-icon{
+    margin-left: 20px;
+}
+/*======================================================*/
+/*PHOTO SHOWCASE*/
+/*======================================================*/
+#photo-showcase{
+    width: 85%;
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 30px;
+}
+#photo-showcase section{
+    margin-left: 30px;
+    border: solid 2px black;
+}
+#photo-showcase section:hover{
+    transform: scale(1.15);
+}
+#photo-showcase .card-style{
+    width: 18%;
+    text-align: center;
+    background: rgb(246,246,246);
+    background: linear-gradient(90deg, rgba(246,246,246,1) 0%, rgba(240,240,240,1) 100%);
+    border-radius: 20px;
+    padding: 20px;
+}
+#winning-ABA{
+    width: 100%;
+}
+#mvp{
+    width: 100%;
+}
+#3-pointer{
+    width: 100%;
+}
+#sign{
+    width: 100%;
+}
+#photo-showcase .no2{
+    margin-top: 20px;
+}
+#photo-showcase .no3{
+    margin-top: 30px;
+}
+#photo-showcase .no4{
+    margin-top: 10px;
+}
+/*======================================================*/
+/*CONTACT*/
+/*======================================================*/
+#contact{
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+#contact .heading{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    font-family: "Baskerville Old Face", sans-serif;
+    font-weight: bold;
+
+}
+#contact .sub-heading{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    color: slategrey;
+    font-family: Arial, sans-serif;
+    margin-top: -20px;
+}
+#contact p:nth-of-type(3){
+    color: black;
+    width: 100%;
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+#contact p:nth-of-type(4){
+    color: slategrey;
+    width: 100%;
+    margin-top: -10px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+#contact .information{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#contact .information .icon{
+    width: 35px;
+    margin-top: 8px;
+}
+#contact .information .text-1{
+    width: 15%;
+    font-size: 15px;
+    height: 35px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+
+}
+#contact .information .text-2{
+    width: 78%;
+    font-size: 15px;
+    height: 35px;
+    font-weight: bold;
+    margin-left: -10px;
+    font-family: Helvetica, sans-serif;
+}
+#contact .heading-2{
+    color: black;
+    width: 100%;
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+/*======================================================*/
+/*CONTACT-FORMS*/
+/*======================================================*/
+#contact .forms{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#contact .forms .second{
+    margin-left: 120px;
+}
+#contact .forms input{
+    background: #f4f4f4;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 170px;
+}
+#contact .forms label{
+    margin-left: 15px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+#contact .message-form{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#contact .message-form input{
+    background: #f4f4f4;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 485px;
+    height: 80px;
+}
+#contact .message-form label{
+    margin-left: 15px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+#contact .agreements{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#contact .agreements .second{
+    margin-left: 170px;
+}
+#contact .agreements .first input{
+    background: #f4f4f4;
+}
+#contact .agreements .first label{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: slategrey;
+}
+#contact .agreements .second input{
+    font-size: 15px;
+    color: white;
+    font-family: Arial, sans-serif;
+    background: deepskyblue;
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px solid black;
+    text-decoration: none;
+    margin-top: -15px;
+    width: 80px;
+}
+#contact .agreements .second input:hover{
+    font-weight: bold;
+}
+/*======================================================*/
+/*FOOTER*/
+/*======================================================*/
+footer{
+    height: 60px;
+    border-top: 2px solid lightgray;
+    background: rgb(228,228,228);
+    background: linear-gradient(90deg, rgba(228,228,228,1) 0%, rgba(203,203,203,1) 100%);
+}
+footer p{
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 22px;
+    width: 20%;
+}
+footer a{
+    margin-top: 22px;
+}
+footer #icons{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+footer #icons img{
+    margin-left: 30px;
+}
+footer #jump{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+footer #jump a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+
+}
+footer #jump a:hover{
+    text-decoration: underline;
+}
+footer #jump a:nth-of-type(2){
+    font-weight: bold;
+}
+
